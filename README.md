@@ -9,16 +9,16 @@
 - [License](#license)
 
 ## Description
-- The package has a function named `GenPass()` which can generate random passwords and OTP which contains random UpperCase, LowerCase, Special and Numeric Characters.
+- The package has a function named `GenPass()` which can generate random passwords and OTP which contains random UpperCase letters, LowerCase letters, Special and Numeric Characters.
 - By default the generated password will be a mixture of random UpperCase letters, LowerCase letters, Special and Numeric Characters, and the length will be also a random number between 16-32.
 - User can customize the password generation by passing some arguments to the generation function.
 - User can customize the password length by passing a numeric value to the `length` parameter.
-- There 4 other boolean parameters to control the generated password's characters.
+- There are other 4 boolean parameters to control the generated password's characters.
   - boolean `upper` parameter for UpperCase Letters.
   - boolean `lower` parameter for LowerCase Letters.
   - boolean `special` parameter for Special Characters.
   - boolean `number` parameter for Numbers.
-- By default, all the boolean parameters will be false. This will generate a random password of mixed charset.
+- By default, all the boolean parameters will be false. This will generate a random password consist of mixed characters.
 - To enforce custom charset, one should pass True value to the parameters regarding those charsets.
 
 ## Installation
@@ -47,7 +47,7 @@ password = GenPass(8, upper=True)
 ```py
 password = GenPass(lower=True)
 ```
-- Generate a random password of a fixed length and consist of Numbers(i.e OTP).
+- Generate a random password of a fixed length and consist of only Numbers(i.e OTP).
 ```py
 password = GenPass(6, number=True)
 ```
