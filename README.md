@@ -5,7 +5,8 @@
 - [Description](#Description)
 - [Installation](#Installation)
 - [Examples](#examples)
-- [Developmers](#developers)
+- [License](#license)
+- [Developer](#developer)
 
 ## Description
 - The package has a function named `GenPass()` which can generate random passwords and OTP which contains random UpperCase, LowerCase, Special and Numeric Characters.
@@ -54,7 +55,11 @@ password = GenPass(6, number=True)
 password = GenPass(special=True)
 ```
 - Generate a random password of a fixed length and consist of only Special Characters and UpperCase letters.
-```py
-password = GenPass(8, upper=True, special=True)
-```
-
+        ```py
+        password = GenPass(8, upper=True, special=True)
+        ```
+## License
+MIT
+## Developer
+        #### Wahid Sadique Koly
+        [Github](https://github.com/wskoly/) [Portfolio](https://wskoly.ml)
