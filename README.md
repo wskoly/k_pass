@@ -33,6 +33,10 @@ Generate a random password using default parameters.
 ```py
 password = GenPass()
 ```
+Output:
+```
+P4e;WL189Yg=+nf7yr[4nr.C@
+```
 Generate a random password of a fixed length(mixed characters).
 ```py
 password = GenPass(8)
