@@ -8,7 +8,7 @@ Python package to generate random strong password and OTP.
 - [Examples](#examples)
 - [Developmers](#developers)
 
-##use-cases
+## use-cases
 
 ## Installation
 To install write the following command in your terminal.
