@@ -55,11 +55,12 @@ password = GenPass(6, number=True)
 password = GenPass(special=True)
 ```
 - Generate a random password of a fixed length and consist of only Special Characters and UpperCase letters.
-        ```py
-        password = GenPass(8, upper=True, special=True)
-        ```
+```py
+password = GenPass(8, upper=True, special=True)
+```
 ## License
 MIT
+
 ## Developer
-        #### Wahid Sadique Koly
-        [Github](https://github.com/wskoly/) [Portfolio](https://wskoly.ml)
+#### Wahid Sadique Koly
+[Github](https://github.com/wskoly/) [Portfolio](https://wskoly.ml)
