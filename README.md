@@ -29,31 +29,31 @@ Import the function to your code.
 ```py
 from k-pass import GenPass
 ```
--Generate a random password using default parameters.
+- Generate a random password using default parameters.
 ```py
 password = GenPass()
 ```
--Generate a random password of a fixed length(mixed characters).
+- Generate a random password of a fixed length(mixed characters).
 ```py
 password = GenPass(8)
 ```
--Generate a random password of a fixed length and consist of only UpperCase letters.
+- Generate a random password of a fixed length and consist of only UpperCase letters.
 ```py
 password = GenPass(8, upper=True)
 ```
--Generate a random password of a random length and consist of only LowerCase letters.
+- Generate a random password of a random length and consist of only LowerCase letters.
 ```py
 password = GenPass(lower=True)
 ```
--Generate a random password of a fixed length and consist of Numbers(i.e OTP).
+- Generate a random password of a fixed length and consist of Numbers(i.e OTP).
 ```py
 password = GenPass(6, number=True)
 ```
--Generate a random password of a random length and consist of only Special Characters.
+- Generate a random password of a random length and consist of only Special Characters.
 ```py
 password = GenPass(special=True)
 ```
--Generate a random password of a fixed length and consist of only Special Characters and UpperCase letters.
+- Generate a random password of a fixed length and consist of only Special Characters and UpperCase letters.
 ```py
 password = GenPass(8, upper=True, special=True)
 ```
