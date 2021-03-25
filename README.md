@@ -1,4 +1,4 @@
-# k-pass
+# k_pass
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/wskoly/k-pass)
 ### Python package to generate random strong password and OTP.
 
@@ -27,7 +27,7 @@ pip install k-pass
 ## Examples
 Import the function to your code.
 ```py
-from k-pass import GenPass
+from k_pass import GenPass
 ```
 - Generate a random password using default parameters.
 ```py
