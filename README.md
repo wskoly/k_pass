@@ -1,5 +1,5 @@
 # k_pass
-[![](https://img.shields.io/badge/Version-0.0.1-green)](https://github.com/wskoly/k-pass) [![](https://img.shields.io/badge/Author-Wahid%20Sadique%20Koly-red)](https://github.com/wskoly/)
+[![](https://img.shields.io/badge/Version-0.0.2-green)](https://github.com/wskoly/k-pass) [![](https://img.shields.io/badge/Author-Wahid%20Sadique%20Koly-red)](https://github.com/wskoly/)
 ### Python package to generate random strong password and OTP.
 
 - [Description](#Description)
