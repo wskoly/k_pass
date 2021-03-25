@@ -1,5 +1,5 @@
 # k_pass
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/wskoly/k-pass)
+[![](https://img.shields.io/badge/Version-0.0.1-green)](https://github.com/wskoly/k-pass)
 ### Python package to generate random strong password and OTP.
 
 - [Description](#Description)
@@ -59,7 +59,9 @@ password = GenPass(special=True)
 password = GenPass(8, upper=True, special=True)
 ```
 ## Author
-* **Wahid Sadique Koly**
-* [Github](https://github.com/wskoly/) [Portfolio](https://wskoly.ml)
+**Wahid Sadique Koly**
+- [Github](https://github.com/wskoly/) 
+- [Portfolio](https://wskoly.ml)
+
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/wskoly/k_pass/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/wskoly/k_pass/LICENSE) file for details
