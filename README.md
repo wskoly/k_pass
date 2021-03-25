@@ -22,7 +22,7 @@
 ## Installation
 To install write the following command in your terminal.
 ```py
-pip install k-pass
+pip install k_pass
 ```
 ## Examples
 Import the function to your code.
