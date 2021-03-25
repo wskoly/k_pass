@@ -10,18 +10,19 @@
 
 ## Description
 - The package has a function named `GenPass()` which can generate random passwords and OTP which contains random UpperCase, LowerCase, Special and Numeric Characters.
-- By default the generated password will be a mixtures of random UpperCase letters, LowerCase letters, Special and Numeric Characters and the length will be also a random number between 16-32.
-- User can customize the password generation by passing various argument to the generation function.
+- By default the generated password will be a mixture of random UpperCase letters, LowerCase letters, Special and Numeric Characters, and the length will be also a random number between 16-32.
+- User can customize the password generation by passing some arguments to the generation function.
 - User can customize the password length by passing a numeric value to the `length` parameter.
-- There 4 others boolean parameters to control the generated password's characters.
+- There 4 other boolean parameters to control the generated password's characters.
   - boolean `upper` parameter for UpperCase Letters.
   - boolean `lower` parameter for LowerCase Letters.
   - boolean `special` parameter for Special Characters.
   - boolean `number` parameter for Numbers.
-- By default all the boolean parameters wll be false. This will generate a random password of mixed charset.
-- To enforce custom charset, one should pass True value to the parameters regarding those charset.
+- By default, all the boolean parameters will be false. This will generate a random password of mixed charset.
+- To enforce custom charset, one should pass True value to the parameters regarding those charsets.
+
 ## Installation
-To install write the following command in your terminal.
+To install, write the following command in your terminal.
 ```py
 pip install k_pass
 ```
