@@ -1,6 +1,6 @@
 # k-pass
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/wskoly/k-pass)
-###Python package to generate random strong password and OTP.
+### Python package to generate random strong password and OTP.
 
 - [Description](#Description)
 - [Installation](#Installation)
